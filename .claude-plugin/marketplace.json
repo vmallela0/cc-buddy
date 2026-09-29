@@ -1,0 +1,18 @@
+{
+  "name": "cc-buddy",
+  "owner": {
+    "name": "vedu"
+  },
+  "metadata": {
+    "description": "cc-buddy: the /buddy companion, back as a mod"
+  },
+  "plugins": [
+    {
+      "name": "cc-buddy",
+      "source": "./",
+      "description": "Brings back /buddy above the Claude Code prompt: your original companion restored, an egg for new accounts, levels, moods and a roster you unlock by shipping",
+      "license": "MIT",
+      "version": "0.5.0"
+    }
+  ]
+}

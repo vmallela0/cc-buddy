@@ -1,0 +1,9 @@
+{
+  "name": "cc-buddy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "bunx -p typescript tsc -p ."
+  }
+}
