@@ -24,7 +24,7 @@ This is an unofficial fan project. It isn't made or endorsed by Anthropic.
 - A mood that follows the session. It's `» focused` while Claude works, `↑ proud` after a green run or a commit, `! worried` after three failures in a row, `z sleepy` after twenty quiet minutes, and `♥ happy` after a pet. Every mood shows as a symbol and a word, never color alone.
 - Nothing decays. A buddy never gets hungry, never runs off, and never guilts you into opening the terminal.
 
-**A collection you earn.** A roster of 48 more buddies, seeded from your account id, opens one at a time: one new buddy per 25 commits. `/buddy roster` shows what's open and how far the next one is. If you used an earlier version that rotated through the roster, you keep everyone you already met.
+**A collection you earn.** A roster of 49 more buddies (two of them legendary), seeded from your account id, opens one at a time: one new buddy per 25 commits. `/buddy roster` shows what's open and how far the next one is. If you used an earlier version that rotated through the roster, you keep everyone you already met.
 
 **It reacts, cheaply.** When Claude edits a file, runs a command, passes or fails tests, commits or finishes a turn, your buddy says something in its own voice. Those lines come from a pool built per buddy from its species and stats, so they cost no tokens.
 

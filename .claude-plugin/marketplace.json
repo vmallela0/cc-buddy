@@ -12,7 +12,7 @@
       "source": "./",
       "description": "Brings back /buddy above the Claude Code prompt: your original companion restored, an egg for new accounts, levels, moods and a roster you unlock by shipping",
       "license": "MIT",
-      "version": "0.5.0"
+      "version": "0.5.1"
     }
   ]
 }

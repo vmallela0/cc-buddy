@@ -121,13 +121,15 @@ describe('soul', () => {
 })
 
 describe('roster', () => {
-  test('48 buddies, every species at least twice, one legendary, the same every time', () => {
+  test('49 buddies, every species at least twice, two legendaries, the same every time', () => {
     const a = roster('abc', undefined, 0)
-    expect(a).toHaveLength(48)
+    expect(a).toHaveLength(49)
     for (const sp of SPECIES) expect(a.filter(b => b.bones.species === sp).length).toBeGreaterThanOrEqual(2)
-    expect(a.filter(b => b.bones.rarity === 'legendary')).toHaveLength(1)
+    expect(a.filter(b => b.bones.rarity === 'legendary')).toHaveLength(2)
+    // the second legendary was appended, so it is the last one
+    expect(a[48]!.bones.rarity).toBe('legendary')
     expect(roster('abc', undefined, 0)).toEqual(a)
-    expect(new Set(a.map(b => b.companion.name)).size).toBe(48)
+    expect(new Set(a.map(b => b.companion.name)).size).toBe(49)
     for (const b of a) expect(RARITIES).toContain(b.bones.rarity)
   })
   test('the original leads, and its name is not reused', () => {

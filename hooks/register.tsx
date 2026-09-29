@@ -7,7 +7,7 @@ import { speak, voiceOf, type Voice } from './buddy/voice.ts'
 // /buddy, back as a mod. The companion Claude Code hatched in April lives in ~/.claude.json under
 // `companion` (name, personality, hatchedAt) and its body is derived from the account id. That one
 // buddy is yours, and it stays: XP and levels come from commits and passing tests, a mood follows
-// how the session is going, and every 25 commits opens one more of a 48-strong roster seeded from
+// how the session is going, and every 25 commits opens one more of a 49-strong roster seeded from
 // the same id. An account that never hatched one gets an egg, and the first /buddy hatches it.
 //
 // Reactions to edits, commands, tests, commits and turns are canned and cost nothing. Two things go

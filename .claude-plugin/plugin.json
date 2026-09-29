@@ -1,7 +1,7 @@
 {
   "name": "cc-buddy",
-  "version": "0.5.0",
-  "description": "Brings back /buddy: the small creature that watched you code, above the prompt again. Restores the companion in ~/.claude.json exactly (same species, rarity, hat and stats), hatches an egg for new accounts, levels up from commits and passing tests, unlocks a 48-buddy roster as you ship, reacts to Claude's work for free, answers in a Haiku-written line when you say its name, and shows in a pane on desktop and mobile. Needs CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1.",
+  "version": "0.5.1",
+  "description": "Brings back /buddy: the small creature that watched you code, above the prompt again. Restores the companion in ~/.claude.json exactly (same species, rarity, hat and stats), hatches an egg for new accounts, levels up from commits and passing tests, unlocks a 49-buddy roster as you ship, reacts to Claude's work for free, answers in a Haiku-written line when you say its name, and shows in a pane on desktop and mobile. Needs CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1.",
   "author": {
     "name": "vedu"
   },

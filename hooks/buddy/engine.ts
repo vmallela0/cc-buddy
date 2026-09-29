@@ -454,13 +454,16 @@ export const BUBBLE_MS = 30_000
 
 export type Buddy = { companion: Companion; bones: Bones }
 
-export const ROSTER_SIZE = 48
-// 26 common, 12 uncommon, 6 rare, 3 epic, 1 legendary, spread so neighbours differ
+export const ROSTER_SIZE = 49
+// 26 common, 12 uncommon, 6 rare, 3 epic, 2 legendary, spread so neighbours differ. The second
+// legendary came later and sits at the end: the roster is dealt from one seeded sequence, so a slot
+// added anywhere else would reshuffle every buddy after it.
 const RARITY_SCHEDULE: Rarity[] = [
   'common', 'uncommon', 'common', 'rare', 'common', 'common', 'uncommon', 'common', 'epic', 'common', 'common', 'uncommon',
   'common', 'rare', 'common', 'uncommon', 'common', 'common', 'legendary', 'common', 'uncommon', 'common', 'rare', 'common',
   'common', 'uncommon', 'common', 'epic', 'common', 'uncommon', 'common', 'rare', 'common', 'common', 'uncommon', 'common',
   'rare', 'common', 'uncommon', 'common', 'epic', 'common', 'uncommon', 'common', 'rare', 'common', 'uncommon', 'common',
+  'legendary',
 ]
 
 const ROSTER_NAMES = [
